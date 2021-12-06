@@ -1,0 +1,1 @@
+document.querySelectorAll('#age-verification-container, #age-verification-wrapper').forEach((i,ind,o)=>{i.remove()})

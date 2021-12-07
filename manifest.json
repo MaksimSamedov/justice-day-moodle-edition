@@ -14,9 +14,9 @@
   "content_scripts": [
     {
       "matches": [
-        "https://*edu.vsu.ru/*",
-        "https://*edu.vsu.ru/*/*",
-        "https://*edu.vsu.ru/*/*/*"
+        "https://*.edu.vsu.ru/*",
+        "https://*.edu.vsu.ru/*/*",
+        "https://*.edu.vsu.ru/*/*/*"
       ],
       "js": [
         "scripts/end.js"

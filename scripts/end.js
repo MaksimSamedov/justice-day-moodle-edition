@@ -1,11 +1,10 @@
 let interval = localStorage['verificationInterval'] * 1
 if(!interval) interval = 5000
-console.log(interval)
+console.log("Justice here. Now on moodle")
 localStorage['verificationInterval'] = interval
 
 
 const main = () => {
-    console.log(window.verificationInterval)
     document.querySelectorAll('button[aria-label="Проверка"]').forEach((el, i) => {
         el.click()
         console.log('Проверка активности (' + new Date().toLocaleDateString() + ')')

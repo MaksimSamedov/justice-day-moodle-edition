@@ -1,6 +1,6 @@
 {
   "name": "JusticeDay Moodle Edition",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add some justice to this unfair world",
   
   "manifest_version": 2,
@@ -14,7 +14,6 @@
   "content_scripts": [
     {
       "matches": [
-        "https://*/*",
         "https://*.vsu.ru/*",
         "https://*.vsu.ru/*/*",
         "https://*.vsu.ru/*/*/*"
